@@ -75,5 +75,21 @@
   {
     "key": "ctrl+shift+s",
     "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "ctrl+escape",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+escape",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
   }
 ]

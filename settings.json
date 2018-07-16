@@ -3,7 +3,8 @@
   "editor.fontSize": 16,
   "window.menuBarVisibility": "toggle",
   "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily":
+    "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.dragAndDrop": false,
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -15,10 +16,7 @@
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.parameterHints": false,
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "workbench.colorTheme": "Tomorrow Night Blue",
   "workbench.editor.enablePreview": false,
   "terminal.integrated.shell.linux": "/bin/zsh",
@@ -131,7 +129,7 @@
   "terminal.integrated.rightClickBehavior": "copyPaste",
   "explorer.openEditors.visible": 0,
   "workbench.startupEditor": "newUntitledFile",
-  "git.defaultCloneDirectory": "/home/martin/repos",
+  "git.defaultCloneDirectory": "/home/martin/workspace",
   "search.location": "sidebar",
   "[markdown]": {
     "editor.wordWrap": "wordWrapColumn",
@@ -156,5 +154,8 @@
   "emmet.excludeLanguages": [],
   "emmet.triggerExpansionOnTab": true,
   "emmet.showSuggestionsAsSnippets": true,
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+  "files.associations": {
+    ".graphql-config": "json"
+  }
 }
