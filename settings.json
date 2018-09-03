@@ -19,7 +19,6 @@
     80,
     100
   ],
-  "workbench.colorTheme": "Tomorrow Night Blue",
   "workbench.editor.enablePreview": false,
   "terminal.integrated.shell.linux": "/bin/zsh",
   "terminal.integrated.showExitAlert": false,
@@ -31,10 +30,10 @@
   "html.format.wrapLineLength": 100,
   "html.suggest.angular1": false,
   "html.suggest.ionic": false,
-  "prettier.printWidth": 100,
+  "prettier.printWidth": 80,
   "prettier.singleQuote": true,
   "typescriptHero.imports.organizeOnSave": true,
-  "editor.formatOnSaveTimeout": 5000,
+  "editor.formatOnSaveTimeout": 2000,
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDelete": false,
@@ -137,7 +136,7 @@
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80
   },
-  "typescript.preferences.importModuleSpecifier": "auto",
+  "typescript.preferences.importModuleSpecifier": "relative",
   "typescript.preferences.quoteStyle": "single",
   "workbench.colorCustomizations": {
     "[Tomorrow Night Blue]": {
@@ -160,8 +159,14 @@
   "files.associations": {
     ".graphql-config": "json"
   },
-  "editor.tabCompletion": true,
+  "editor.tabCompletion": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
-  }
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "editor.quickSuggestionsDelay": 20,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.colorTheme": "Tomorrow Night Blue"
 }

@@ -1,0 +1,44 @@
+{
+  "Import React": {
+    "prefix": "ireact",
+    "body": ["import React from 'react';"]
+  },
+  "Import RxJs operators": {
+    "prefix": "irxops",
+    "body": ["import {$1} from 'rxjs/operators';"]
+  },
+  "Import RxJs": {
+    "prefix": "irx",
+    "body": ["import {$1} from 'rxjs';"]
+  },
+  "describe block": {
+    "prefix": "descblock",
+    "body": [
+      "describe('$1', () => {",
+      "  it('should $2', () => {",
+      "    $3",
+      "  });",
+      "});"
+    ]
+  },
+  "it block": {
+    "prefix": "itblock",
+    "body": ["it('should $1', () => {", "  $2", "});"]
+  },
+  "beforeEach": {
+    "prefix": "beforeeach",
+    "body": ["beforeEach(() => {", "  $1", "});"]
+  },
+  "beforeAll": {
+    "prefix": "beforeall",
+    "body": ["beforeAll(() => {", "  $1", "});"]
+  },
+  "afterEach": {
+    "prefix": "aftereach",
+    "body": ["afterEach(() => {", "  $1", "});"]
+  },
+  "afterAll": {
+    "prefix": "afterall",
+    "body": ["afterAll(() => {", "  $1", "});"]
+  }
+}
