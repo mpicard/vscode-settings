@@ -49,11 +49,11 @@
     "command": "-workbench.action.zoomIn"
   },
   {
-    "key": "ctrl+shift+=",
+    "key": "cmd+=",
     "command": "editor.action.fontZoomIn"
   },
   {
-    "key": "ctrl+-",
+    "key": "cmd+-",
     "command": "editor.action.fontZoomOut"
   },
   {
@@ -101,5 +101,29 @@
   {
     "key": "cmd+o",
     "command": "-workbench.action.files.openFileFolder"
+  },
+  {
+    "key": "shift+cmd+=",
+    "command": "workbench.action.zoomIn"
+  },
+  {
+    "key": "cmd+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "workbench.action.zoomOut"
+  },
+  {
+    "key": "cmd+numpad_subtract",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "cmd+-",
+    "command": "-workbench.action.zoomOut"
+  },
+  {
+    "key": "shift+cmd+-",
+    "command": "-workbench.action.zoomOut"
   }
 ]
