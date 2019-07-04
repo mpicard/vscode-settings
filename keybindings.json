@@ -83,5 +83,23 @@
   {
     "key": "ctrl+escape",
     "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "shift+cmd+'",
+    "command": "editor.emmet.action.updateTag"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFileFolder"
   }
 ]
