@@ -15,7 +15,7 @@
     "prefix": "descblock",
     "body": [
       "describe('$1', () => {",
-      "  it('should $2', () => {",
+      "  it('$2', () => {",
       "    $3",
       "  });",
       "});"
@@ -23,7 +23,7 @@
   },
   "it block": {
     "prefix": "itblock",
-    "body": ["it('should $1', () => {", "  $2", "});"]
+    "body": ["it('$1', () => {", "  $2", "});"]
   },
   "beforeEach": {
     "prefix": "beforeeach",
@@ -40,5 +40,9 @@
   "afterAll": {
     "prefix": "afterall",
     "body": ["afterAll(() => {", "  $1", "});"]
+  },
+  "Enzyme Find debug": {
+    "prefix": "find-debug",
+    "body": ["console.log(wrapper.find('$1').debug())"]
   }
 }

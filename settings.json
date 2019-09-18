@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 13,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -11,15 +11,16 @@
   "editor.minimap.renderCharacters": false,
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.rulers": [80, 100],
-  "workbench.editor.enablePreview": false,
+  "editor.rulers": [
+    80,
+    100
+  ],
   "window.zoomLevel": 1,
   "html.format.endWithNewline": true,
   "html.format.indentHandlebars": true,
   "html.format.maxPreserveNewLines": 1,
   "html.format.wrapAttributes": "force-aligned",
   "html.format.wrapLineLength": 100,
-  "prettier.singleQuote": true,
   "editor.formatOnSave": true,
   "editor.formatOnSaveTimeout": 2000,
   "explorer.confirmDragAndDrop": false,
@@ -158,41 +159,37 @@
   "editor.quickSuggestionsDelay": 20,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.acceptSuggestionOnEnter": "smart",
-  "diffEditor.ignoreTrimWhitespace": true,
-  "workbench.colorTheme": "Tomorrow Night Blue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Solarized Light",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.showExitAlert": false,
   "css.lint.important": "warning",
   "css.lint.importStatement": "warning",
   "scss.lint.important": "warning",
   "scss.lint.importStatement": "warning",
-  "go.autocompleteUnimportedPackages": true,
   "editor.wrappingIndent": "deepIndent",
   "editor.renderLineHighlight": "all",
   "workbench.editor.highlightModifiedTabs": true,
-  "go.coverOnSingleTest": true,
   "search.useIgnoreFiles": false,
   "editor.tabCompletion": "on",
   "files.watcherExclude": {
     "**/dist/**": true,
+    "**/output/**": true,
     "**/pkg/**": true
   },
-  "go.coverageOptions": "showCoveredCodeOnly",
   "diffEditor.renderSideBySide": true,
   "search.exclude": {
     "**/coverage": true,
     "**/dist": true,
-    "**/keycloak/themes": true
+    "**/keycloak/themes": true,
+    "**/output": true
   },
-  "go.inferGopath": true,
   "gitlens.advanced.telemetry.enabled": false,
   "gitlens.blame.avatars": false,
   "gitlens.blame.heatmap.enabled": false,
   "gitlens.blame.highlight.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "go.useLanguageServer": true,
-  "eslint.autoFixOnSave": true,
   "lua.format.singleQuote": true,
   "lua.format.indentCount": 2,
   "lua.format.useTabs": false,
@@ -200,7 +197,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -211,6 +208,26 @@
     "enabled": false,
     "liveIndexing": false,
     "delay": 500,
-    "exclude": [".terraform/**/*", "**/.terraform/**/*"]
-  }
+    "exclude": [
+      ".terraform/**/*",
+      "**/.terraform/**/*"
+    ]
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.renderWhitespace": "none",
+  "editor.largeFileOptimizations": false,
+  "jest.enableCodeLens": false,
+  "go.formatTool": "goimports",
+  "go.lintFlags": [
+    "--disable=all",
+    "--enable=errcheck"
+  ],
+  "go.testFlags": [
+    "-ginkgo.noColor"
+  ],
+  "go.testOnSave": true,
+  "workbench.panel.defaultLocation": "right",
+  "workbench.editor.enablePreview": false,
+  "go.coverOnSave": true,
+  "zenMode.hideTabs": false
 }
